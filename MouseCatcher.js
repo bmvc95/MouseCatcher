@@ -64,7 +64,7 @@ function draw() {
   if (loadingMTM.loaded()) {
 
     loadingMTMTime--;
-    loadGif(loadingMTM);
+    image(loadingMTM,0,0,width,height);
   }
 } else if (loadingMTMTime == 0 && !exitHowto) {
   image(bgPic, 0 ,0, width, height);
