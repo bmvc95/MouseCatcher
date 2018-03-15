@@ -28,7 +28,7 @@ var exit;
 function setup() {
   myFont = loadFont('WCRoughTrad.ttf');
 
-  loadingMTM = loadGif('https://i.imgur.com/G1a9J7B.gif');
+  loadingMTM = loadGif('loadingMTM.gif');
   graymousePic = loadImage("mouse.png");
   blackmousePic = loadImage("blackmouse.png");
   brownmousePic = loadImage("brownmouse.png");
